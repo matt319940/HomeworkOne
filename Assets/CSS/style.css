@@ -1,0 +1,133 @@
+.navbar{
+	margin: 20px;
+	margin-bottom: 10px;
+    padding: 20px;
+	border: solid black 1px;
+	border-radius: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,194,199,1) 0%, rgba(12,17,18,1) 50%);
+}
+
+a.floatRight:link, a.floatRight:visited{
+	float: right;
+	color: white;
+}
+
+a.floatRight:hover{
+	background: rgb(10,14,21);
+	background: radial-gradient(circle, rgba(10,14,21,0) 17%, rgba(61,96,99,1) 76%, rgba(12,17,18,1) 100%);
+}
+
+a:link{
+    text-decoration: none;
+	color: black;
+    padding-right:10px;
+    padding-left:10px;
+}
+a:hover{
+	background: rgb(12,17,18);
+	background: radial-gradient(circle, rgba(12,17,18,1) 0%, rgba(10,20,21,0.6979166666666667) 6%, rgba(10,14,21,0) 100%);
+}
+a:visited{
+    color: black;
+}
+
+body{
+	background-image: url("../Images/dust_scratches.png");
+}
+
+.aboutMe{
+	text-align: center;
+	color: grey;
+}
+.mainContent{
+	border:solid black 1px;
+	border-radius: 25px;
+	margin: 30px;
+	margin-top: 10px;
+	padding: 3px;
+	box-shadow: 10px 10px 5px grey;
+	background-color: #D3D3D3;
+	overflow: hidden;
+}
+
+ .youie{
+    width:33.3%;
+	float: left;
+	margin-left: 32px;
+	margin-right: 10px;
+	border:solid black 2px;
+	border-radius:15px;
+    } 
+	
+.bioText{
+	line-height: 1.12rem;
+	padding: 2rem;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.contactForm{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 20px;
+}
+
+input{
+	width: 100%;
+}
+
+textarea{
+	width: 95%;
+}
+
+input[type=submit]{
+	background-color: #777;
+	width: 100px;
+	margin: 20px;
+}
+
+.portfolioLink{
+	margin:32px;
+}
+
+a.portfolioLink:link{
+    text-decoration: none;
+}
+a.portfolioLink:hover{
+	background: none;
+}
+a.portfolioLink:visited{
+    background: none;
+}
+
+.portfolioImage{
+	border: solid black 1px;
+	padding: 20px;
+	margin-right: 50px;
+	background: #D3D3D3;
+}
+
+.imageTextHangman{
+	position: absolute;
+	left:42px;
+	top: 130px;
+	background-color: grey;
+	padding: 5px 40px 5px 40px;
+}
+
+.imageTextScratch{
+	position: absolute;
+	left:323px;
+	top: 130px;
+	background-color: grey;
+	padding: 5px 46px 5px 46px;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	bottom:0;
+	background-color: grey;
+	text-align: center;
+	overflow:hidden;
+}
